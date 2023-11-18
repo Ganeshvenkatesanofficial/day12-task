@@ -1,0 +1,94 @@
+input{
+    width: 70%;
+}
+
+.div-input{
+    width: 100%;
+}
+
+.img{
+    background-image: url("./assets/event_management_platform_op.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    width: 30%;
+}
+
+@media only screen and (max-width: 425px){
+    .mq-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    input{
+        width: 100%;
+    }
+    
+    .div-input{
+        width: 100%;
+    }
+
+    button{
+        width: 50%;
+    }
+    .img{
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .mq-md{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    input{
+        width: 100%;
+    }
+    
+    .div-input{
+        width: 100%;
+    }
+
+    button{
+        width: 50%;
+    }
+    .img{
+        background-image: url("./assets/event_management_platform_op.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: px){
+    .mq-md{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    input{
+        width: 100%;
+    }
+    
+    .div-input{
+        width: 100%;
+    }
+
+    button{
+        width: 50%;
+    }
+    .img{
+        background-image: url("./assets/event_management_platform_op.webp");
+        background-repeat: no-repeat;
+        background-size:auto;
+        background-position:center;
+    }
+}
